@@ -3,5 +3,7 @@ body {
 }
 
 .window {
-    
+    background-color: white;
+    border: 3px solid #1DA1F2;
+    border-radius: 25px;
 }
