@@ -4,7 +4,7 @@ import '../../css/app.css';
 
 function LoginWindow() {
     return (
-        <div className="container-fluid">
+        <div className="container">
             <div className="window">
                 <form>
                     <h2>Twitter Login</h2>
