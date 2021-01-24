@@ -1924,7 +1924,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function LoginWindow() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-    className: "container-fluid",
+    className: "container",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
       className: "window",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
@@ -6401,7 +6401,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n    background-color: aliceblue;\r\n}\r\n\r\n.window {\r\n    \r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n    background-color: aliceblue;\r\n}\r\n\r\n.window {\r\n    background-color: white;\r\n    border: 3px solid #1DA1F2;\r\n    border-radius: 25px;\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
