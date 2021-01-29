@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('twitter');
 });
+
+Route::get('profile', function () {
+    return view('profile');
+});
+
+Route::get('login', 'TwitterController@login');
+Route::get('callback', 'TwitterController@callback') -> name('twitter.callback');
