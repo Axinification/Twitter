@@ -1,3 +1,7 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body {
     background-color: aliceblue;
 
@@ -10,6 +14,16 @@ h1 {
 @media only screen and (max-width: 600px) {
     .window {
         width: auto !important;
+    }
+
+    .mainInfo {
+        flex-direction: column !important;
+    }
+
+    .mainInfo .image {
+        padding: 0 !important;
+        margin-bottom: 15px;
+        min-width: 150px;
     }
   }
 
@@ -39,4 +53,24 @@ h1 {
     width: auto;
     height: auto;
     text-align: center;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.column-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    padding: 0px 20px 10px 10px;
+    margin: auto;
+}
+
+.nick {
+    color: gray;
+    font-size: small;
 }

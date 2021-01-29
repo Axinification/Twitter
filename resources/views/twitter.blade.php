@@ -8,6 +8,6 @@
     </head>
     <body class="antialiased">
         <div id="login"> </div>
-        <script src="{{ asset('/js/app.js') }}"></script>
+        <script defer src="{{ asset('/js/app.js') }}"></script>
     </body>
 </html>

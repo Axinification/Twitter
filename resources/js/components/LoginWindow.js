@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../../css/app.css';
 
-export default class Profile extends React.Component {
+export default class LoginWindow extends React.Component {
     render () {
         return (
             <div className="container">

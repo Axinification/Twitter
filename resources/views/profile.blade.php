@@ -9,6 +9,6 @@
     <body class="antialiased">
         <div id="data" data='{{ $data }}'> </div>
         <div id="profile"> </div>
-        <script src="{{ asset('/js/app.js') }}"></script>
+        <script defer src="{{ asset('/js/app.js') }}"></script>
     </body>
 </html>

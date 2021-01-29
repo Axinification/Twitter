@@ -23,4 +23,3 @@ Route::get('profile', function () {
 
 Route::get('login', 'TwitterController@login');
 Route::get('callback', 'TwitterController@callback') -> name('twitter.callback');
-// Route::view('/', 'twitter');
