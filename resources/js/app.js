@@ -13,3 +13,4 @@ require('./bootstrap');
  */
 
 require('./components/LoginWindow');
+require('./components/Profile');
